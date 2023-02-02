@@ -1,4 +1,4 @@
 # Marathon
 CMPE 250 Project 4 Marathon
 In this project I was asked to simulate a marathon. The input contains the number of nodes. Then it contains the number of flags. After that it contains the start and the end nodes of the marathon then it contains nodes with the flag. In the end, all the nodes with their connections are written down. The connections are directionless. For example, s0 s1 4 means there is a path between s0 and s1 which has weight 4. The output is only two integers the first integer is the shortest path between the start and the end. However, we are told that the runner wants to cut down all the flags before the marathon because those flags belong to the runner's competitors. So the second integer is the shortest path for all the flags. Another thing is that when the runner reaches a flag the runner can use a zero-length path between the previous and the current flag.
-The code can be run on the terminal like "project4.java "
+The code can be run on the terminal like "project4.java input file output file"
