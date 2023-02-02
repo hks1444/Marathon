@@ -1,2 +1,4 @@
 # Marathon
 CMPE 250 Project 4 Marathon
+In this project I was asked to simulate a marahton. The input contains number of nodes. Then it contains number of flags. After that it contains the start and the end nodes of the marathon then it contains nodes with the flag. At the end all the nodes with their connections are written down. The connections are directionless. For example s0 s1 4 means there is a path between s0 and s1 which has weight 4. The output is only two integers first integer is the shortest path between the start and the end. However we are told that the runner wants cut down all the flags prior to the marathon because those flags belongs to the runner's competitors. So the second integer is the shortest path all the flags. Another thing is that when runner reaches a flag the runner can use zero length path between the previous and the current flag.
+The code can be run on the terminal like "project4.java <input file> <output file>"
